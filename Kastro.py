@@ -48,7 +48,7 @@ ua_x = {"user-agent": "Davik/2.1.0 (Linux; U; Android 12; M2101K7AG Build/SKQ1.2
 ua_x = {"user-agent": "Davik/2.1.0 (Linux; U; Android 10; RMX1821 Build/QP1A.190711.020) [FBAN/MessengerLite;FBAV/324.0.0.6.49;FBPN/com.facebook.mlite;FBLC/en_GB;FBBV/994696613;FBCR/Jazz;FBMF/Realme;FBBD/Realme;FBDV/RMX1821;FBSV/10;FBCA/arm64-v8a:armeabi-v7a:armeabi;FBDM/{density=2.25,height=,width=};]"}
 ua_x = {"user-agent": "Davik/2.1.0 (Linux; U; Android 8.1.0; CPH1909 Build/O11019) [FBAN/MessengerLite;FBAV/302.0.0.1.80;FBPN/com.facebook.mlite;FBLC/en_GB;FBBV/862362285;FBCR/AIRTEL;FBMF/OPPO;FBBD/OPPO;FBDV/CPH1909;FBSV/8.1.0;FBCA/arm64-v8a:armeabi-v7a:armeabi;FBDM/{density=2.25,height=,width=};]"}
 ua_x = {"user-agent": "Dalvik/1.6.0 (Linux; U; Android 5; SM-G3518 Build/JLS36C) [FBAN/FB4A;FBAV/251.0.0.31.111;FBPN/com.facebook.katana;FBLC/en_US;FBBV/188827991;FBCR/T-Mobile;FBMF/samsung;FBBD/samsung;FBDV/SM-G3518;FBSV/4.4.2;FBCA/x86:armeabi-v7a;FBDM/{density=1.5,width=720,height=1244};FB_FW/1;FBRV/190301973;]"}
-uas_random2 = random.choice(["Mozilla/5.0 ("Linux; "Android 13; V2036 "Build/TP1A.220624.014; wv) "AppleWebKit"/537.36 (KHTML, like 'Gecko') "Version/4.0 ""Chrome/111.0.5563.116 "Mobile Safari"/537.36 [FB_IAB/'Orca-Android';FBAV/403.1.0.17.106;]","Mozilla/5.0 (Linux; Android 5.1.1; vivo Y31L Build/LMY47V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/95.0.4638.74 Mobile Safari/537.36[FBAN/EMA;FBLC/en_US;FBAV/335.0.0.15.96;]","Mozilla/5.0 (Linux; Android 4.1.2; Nokia_X Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.87.90 Mobile Safari/537.36 NokiaBrowser/1.0,gzip(gfe)","Mozilla/5.0 (Linux; U; Android 4.4.2; zh-CN; HUAWEI MT7-TL00 Build/HuaweiMT7-TL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/40.0.2214.89 UCBrowser/11.3.8.909 Mobile Safari/537.36","Mozilla/5.0 (Linux; Android 10; M2006C3MG) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Mobile Safari/537.36","Mozilla/5.0 (Linux; Android 7.0; SM-G930VC Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/58.0.3029.83 Mobile Safari/537.36"])
+uas_random2 = random.choice(["Mozilla/5.0 (Linux; Android 13; V2036 Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/111.0.5563.116 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/403.1.0.17.106;]","Mozilla/5.0 (Linux; Android 5.1.1; vivo Y31L Build/LMY47V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/95.0.4638.74 Mobile Safari/537.36[FBAN/EMA;FBLC/en_US;FBAV/335.0.0.15.96;]","Mozilla/5.0 (Linux; Android 4.1.2; Nokia_X Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.87.90 Mobile Safari/537.36 NokiaBrowser/1.0,gzip(gfe)","Mozilla/5.0 (Linux; U; Android 4.4.2; zh-CN; HUAWEI MT7-TL00 Build/HuaweiMT7-TL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/40.0.2214.89 UCBrowser/11.3.8.909 Mobile Safari/537.36","Mozilla/5.0 (Linux; Android 10; M2006C3MG) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Mobile Safari/537.36","Mozilla/5.0 (Linux; Android 7.0; SM-G930VC Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/58.0.3029.83 Mobile Safari/537.36"])
 import requests,bs4,json,os,sys,random,datetime,time,re
 import urllib3,rich,base64
 from rich.table import Table as me
@@ -68,19 +68,23 @@ import datetime
 
 # get the current date and time
 now = datetime.datetime.now()
-dyar = input('NAWT CHYA: ')
+dyar = input('NAWE XOT BNWSA : ')
 logo =f"""                                                                        
-      _   _|_ _ _ __  _   _  __ _   
-   | |/ _` | '_ \| | | |/ _` |  
-   | | (_| | | | | |_| | (_| |  
-   |_|\__,_|_| |_|\__, |\__,_|  
-                  |___/                        
+                  ███        ▄████████ ███▄▄▄▄   ▄██   ▄      ▄████████ 
+▀█████████▄   ███    ███ ███▀▀▀██▄ ███   ██▄   ███    ███ 
+   ▀███▀▀██   ███    ███ ███   ███ ███▄▄▄███   ███    ███ 
+    ███   ▀   ███    ███ ███   ███ ▀▀▀▀▀▀███   ███    ███ 
+    ███     ▀███████████ ███   ███ ▄██   ███ ▀███████████ 
+    ███       ███    ███ ███   ███ ███   ███   ███    ███ 
+    ███       ███    ███ ███   ███ ███   ███   ███    ███ 
+   ▄████▀     ███    █▀   ▀█   █▀   ▀█████▀    ███    █▀  
+                                                          
 \033[1;37m------------------------------------------------
 \033[1;37m TELEGRAM   : TANYA
 \033[1;37m Status     :  \033[1;32mFREE                              
 \033[1;37m------------------------------------------------
  """
- #------------------[ tanya ]-------------------#
+ #------------------[ TANYA ]-------------------#
 import os, platform, time, sys
 time.sleep(5)
 os.system('clear')
@@ -161,7 +165,7 @@ pwpluss,pwnya=[],[]
  
  
 
-#------------[ Tanya ]--------------#
+#------------[ 3ala ]--------------#
  
 P = '\x1b[1;97m'
 M = '\x1b[1;91m'
@@ -517,7 +521,7 @@ def passwrd():
     print('\n\033[1;37m===================================')
  #   print('\033[97;1m[\033[92;1m+\033[97;1m] CLONING COMPLETE TIME :\033[1;92m'+time.strftime("%H:%M")+" "+ tag)
     print('CRACK TAWAW BU TANYA  OK '%(ok))
-    print('CRACK TAWAW BU TANYA  CP '%(cp))
+    print('CRACK TAWAW BU TANYA CP '%(cp))
     print('\n\033[1;37m===================================')
     woi = input('\033[97;1m[\033[92;1m+\033[97;1m] \033[1;37m ENTER TO BACK')
     os.system("python nono.py")
