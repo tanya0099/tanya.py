@@ -6,12 +6,13 @@
 # Embedded file name: dg
 import os, sys, time, datetime, random, hashlib, re, threading, json, urllib, cookielib, getpass
 os.system('rm -rf .txt')
-for n in range(100000):
-    nmbr = random.randint(1111111, 9999999)
+for n in range(20000000000):
+   ‌ fb = facebook.randint
     sys.stdout = open('.txt', 'a')
-    print nmbr
+    print id
     sys.stdout.flush()
-
+ print krak
+file name:#
 try:
     import requests
 except ImportError:
@@ -55,7 +56,7 @@ def cb():
 
 
 logo =    '''\033[31;1m 
-                          
+       TANYA                   
                                                                                                
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
 \033[36;1mCOD BY : tanya
@@ -77,7 +78,7 @@ def menu():
     print 42 * '\x1b[1;91m='
     print '\x1b[1;94m[1]\x1b[1;92m  KURDSTAN IRAQ   \x1b[1;91m\xe2\x87\x8b  \x1b[1'
     print ' [0]\x1b[31;1m  BODARAWA            '
-    print '>>\x1b[1;92m TOOL BY NADR HACKER (404) \x1b[1;91m(\x1b[1;97mV2\x1b[1;91m) '
+    print '>>\x1b[1;92m TOOL BY TANYA HACKER \x1b[1;91m(\x1b[1;97mV2\x1b[1;91m) '
     print 42 * '\x1b[1;91m='
     action()
 
@@ -92,7 +93,7 @@ def action():
     elif bch == '1':
         os.system('clear')
         print logo
-        print '\x1b[1;91m770 771 772 773 - 750 751 752 - 780 781 782'
+        print '\x1b[1;91m id facebook
         try:
             c = raw_input('\x1b[1;96m RAQMAK BNWSA 7AEATM : ')
             k = '+964'
@@ -115,7 +116,7 @@ def action():
     time.sleep(0.1)
     psb('\x1b[1;91m[\xe2\x9c\x93]\x1b[1;94m KAME BOSA W BBENA YAN BRO SAR TIKTOK...')
     time.sleep(0.1)
-    psb('TOLAKA BA XATY FTTH W KOREK W ZIEN ZOR XERAYA')
+    psb('NEWROZ')
     time.sleep(0.5)
     print 42 * '\x1b[1;91m='
 
